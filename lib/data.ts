@@ -99,7 +99,7 @@ export const projectsData = [
     tags: ["React", "Next.js", "Supabase", "Tailwind", "Prisma"],
     imageUrl: activeapplyImg,
     githubUrl: "https://github.com/jankrom/Active-Apply",
-    websiteUrl: "",
+    websiteUrl: "https://active-apply.vercel.app/",
   },
   {
     title: "RoamTogether",
