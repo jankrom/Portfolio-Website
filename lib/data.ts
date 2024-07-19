@@ -153,4 +153,7 @@ export const skillsData = [
   "Kafka",
   "Samza",
   "Supabase",
+  "TenserFlow",
+  "PyTorch",
+  "Scikit-learn",
 ] as const
