@@ -1,12 +1,16 @@
 import React from "react"
 import { CgWorkAlt } from "react-icons/cg"
+
 import activeapplyImg from "@/public/activeapply.png"
 import aihubImg from "@/public/aihub.png"
 import kubernetes from "@/public/kubernetes.png"
 import roamtogetherImg from "@/public/roamtogether.png"
+import vibesheetsImg from "@/public/vibesheets.png"
+
 import atlassianLogo from "@/public/atlassian.svg"
 import helixvmLogo from "@/public/helixvm.svg"
 import rubrikLogo from "@/public/rubrik.svg"
+import metaLogo from "@/public/meta.svg"
 
 export const links = [
   {
@@ -36,6 +40,14 @@ export const links = [
 ] as const
 
 export const experiencesData = [
+  {
+    title: "Software Engineer",
+    location: "Burlingame, CA",
+    description: ["Working on making Horizon OS more performant."],
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2025 - Present",
+    company: { name: "Meta", logo: metaLogo },
+  },
   {
     title: "Software Engineer Intern",
     location: "Remote",
@@ -83,6 +95,14 @@ export const experiencesData = [
 ] as const
 
 export const projectsData = [
+  {
+    title: "Vibe Sheets",
+    description:
+      "Developed an AI chatbot, powered by LangChain, that lets you effortlessly interact with your spreadsheet using natural language.",
+    tags: ["LangChain", "Google App Script", "React", "TypeScript"],
+    imageUrl: vibesheetsImg,
+    githubUrl: "https://github.com/jankrom/Vibe-Sheets",
+  },
   {
     title: "AI-Hub",
     description:
@@ -156,4 +176,5 @@ export const skillsData = [
   "TenserFlow",
   "PyTorch",
   "Scikit-learn",
+  "LangChain",
 ] as const

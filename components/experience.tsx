@@ -56,7 +56,7 @@ export default function Experience() {
                       height="1"
                       quality="95"
                       priority={true}
-                      className="h-8 w-8 rounded-full object-cover shadow-xl"
+                      className="h-8 w-8 rounded-full"
                     />
                   )}
                   {item.company.name}

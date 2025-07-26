@@ -19,16 +19,12 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a senior at{" "}
-        <span className="font-medium">Carnegie Mellon University,</span> working
-        towards a{" "}
-        <span className="font-medium">
-          Bachelor of Science in Electrical and Computer Engineering{" "}
-        </span>
-        with a focus on software systems. With graduation set for May 2025, I'm
-        passionate about continuously learning and tackling complex challenges.
-        The thrill of programming lies in those "aha" moments—when hours of
-        debugging finally lead to a breakthrough. My expertise spans{" "}
+        I'm a software engineer at Meta working on making Horizon OS more
+        performant. I have Bachelor of Science in Electrical and Computer
+        Engineering from Carnegie Mellon University with a focus on software
+        systems. I'm passionate about continuously learning and tackling complex
+        challenges. The thrill of programming lies in those "aha" moments—when
+        hours of debugging finally lead to a breakthrough. My expertise spans{" "}
         <span className="font-medium">
           backend, frontend, full-stack development, machine learning, and
           DevOps.

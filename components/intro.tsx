@@ -52,7 +52,15 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+            <Image
+              src={"/meta.svg"}
+              alt={`Meta logo`}
+              width={32}
+              height={32}
+              quality="95"
+              priority={true}
+              className="h-8 w-8"
+            />
           </motion.span>
         </div>
       </div>
@@ -63,8 +71,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Justin Ankrom.</span> I'm a{" "}
-        <span className="font-bold">software enginner</span> with{" "}
-        <span className="font-bold">4</span> internship experiences.
+        <span className="font-bold">software engineer at Meta</span>.
       </motion.h1>
 
       <motion.div
