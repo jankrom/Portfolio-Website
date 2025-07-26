@@ -102,6 +102,7 @@ export const projectsData = [
     tags: ["LangChain", "Google App Script", "React", "TypeScript"],
     imageUrl: vibesheetsImg,
     githubUrl: "https://github.com/jankrom/Vibe-Sheets",
+    websiteUrl: "",
   },
   {
     title: "AI-Hub",
