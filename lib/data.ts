@@ -99,7 +99,7 @@ export const projectsData = [
     title: "Vibe Sheets",
     description:
       "Developed an AI chatbot, powered by LangChain, that lets you effortlessly interact with your spreadsheet using natural language.",
-    tags: ["LangChain", "Google App Script", "React", "TypeScript"],
+    tags: ["LangGraph", "Google App Script", "React", "TypeScript"],
     imageUrl: vibesheetsImg,
     githubUrl: "https://github.com/jankrom/Vibe-Sheets",
     websiteUrl: "",
@@ -177,5 +177,5 @@ export const skillsData = [
   "TenserFlow",
   "PyTorch",
   "Scikit-learn",
-  "LangChain",
+  "LangGraph",
 ] as const
